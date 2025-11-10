@@ -9,29 +9,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="conta">
-            <div class="card">
-                <h1>Preencha os campos abaixo</h1>
-                <form>
-                    <div class="input-group">
-                        <input type="text" name="name" id="name" minlength="3" placeholder=" " required>
-                        <label for="name">Nome</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="email" name="email" id="email" placeholder=" " required>
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="password" name="pass" id="pass" placeholder=" " required>
-                        <label for="pass">Password</label>
-                    </div>
-                    <span class="separador">OU</span>
-                    <div class="icons">
-                        <i class="fa-brands fa-google"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-                </form>
+        <div class="card">
+            <div class="text-area">
+                <h1>Bem-vindo!</h1>
+                <p>Já tem uma conta? <a href="#">Faça login</a></p>
             </div>
+            <form>
+                <div class="input-group">
+                    <input type="text" name="name" id="name" minlength="3" placeholder=" " required>
+                    <label for="name">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" id="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="pass" id="pass" placeholder=" " required>
+                    <label for="pass">Password</label>
+                </div>
+
+                <input type="submit" value="Cadastrar" class="btn">
+
+                <span class="separador">OU</span>
+                <div class="icons">
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </form>
         </div>
     </div>
 </body>
