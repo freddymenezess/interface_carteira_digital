@@ -25,7 +25,7 @@ body {
     gap: 10px;
 
     height: 100%;
-    width: 100%;
+    max-width: 500px;
     padding: 10px;
 }
 
@@ -52,7 +52,6 @@ header {
     flex: 0 0 200px;
 
     height: 200px;
-    max-width: 500px;
     padding: 12px;
     border-radius: 50%;
 }
